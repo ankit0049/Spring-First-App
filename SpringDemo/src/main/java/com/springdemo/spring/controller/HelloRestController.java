@@ -11,7 +11,7 @@ import com.springdemo.spring.model.User;
 public class HelloRestController {
 
     // Handles requests to /, /hello, or /hello/home
-    @RequestMapping(value = {"", "/", "/home"})
+    @RequestMapping(value = {"", "/", "/home", "/main" ,"/hero"})
     public String sayHello() {
 
         // Returns a simple greeting
